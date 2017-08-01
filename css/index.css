@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+.top{
+	height: 56px;
+	background-color: #2189bf;
+	line-height: 56px;
+}
+.logo{
+	margin-left: 50px;
+	margin-right: 728px;
+}
+.input{
+	width: 312px;
+	height: 28px;
+	border-radius: 15px;
+	border-width: 0;
+}
+.search{
+	position: relative;
+	left: -300px;
+}
+
+.log-in-img{
+	margin-left: -10px;
+}
+
+.personal-data{
+	float: left;
+	background-color: #2a2e3d;
+}
