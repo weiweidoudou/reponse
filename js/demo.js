@@ -178,12 +178,15 @@ $(function(){
 
 //点击history-previous时查询的结果显示上一个模块
 	var $res_ul=$('.history-result ul');
+	var res_width=$('.history-result').width();
+	var ul_width=$('.history-result>ul').width()*2/4;
+	// alert(res_width)
 	$('.history-previous').mousedown(function(){
 		if(parseInt($res_ul.css('left'))<0){
 			$('.history-next').css('backgroundColor','#fff');
 
 			if(!$res_ul.is(':animated')){
-				$res_ul.animate({left:'+=690'},'slow');
+				$res_ul.animate({left:'+='+res_width},'slow');
 			}
 		}else{
 			$(this).css('backgroundColor','#ccc');
@@ -194,10 +197,10 @@ $(function(){
 	
 //点击history-next时查询的结果显示下一个模块
 	$('.history-next').mousedown(function(){
-		if(parseInt($res_ul.css('left'))>-2070){
+		if(parseInt($res_ul.css('left'))>-ul_width){
 			$('.history-previous').css('backgroundColor','#fff');
 			if(!$res_ul.is(':animated')){
-				$res_ul.animate({left:'-=690'},'slow');
+				$res_ul.animate({left:'-='+res_width},'slow');
 			}
 		}else{
 			$(this).css('backgroundColor','#ccc');

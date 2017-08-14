@@ -1,0 +1,73 @@
+@media screen and (min-width: 900px) {
+	.header .header-search{
+		width: 25%
+	}
+	.bottom{
+		height: 1210px;
+	}
+	.personal{
+		width: 20%;
+		height: 100%;
+
+	}
+	.content{
+		width: 80%;
+		height: 100%;
+	}
+	.content-bottom .search{
+		height: 70px;
+	}
+	.search .search-left{
+		width: 15%;
+		box-sizing: border-box;
+		padding-left: 3%;
+	}
+	.search .search-center{
+		width: 25%;
+		box-sizing: border-box;
+		margin-right: 5%;
+		padding-left: 5%
+	}
+	.search-center img{
+		float: right;
+		position: absolute;
+		top: 15%;
+		left: 90%;
+	}
+	.search .search-right{
+		width: 40%;
+		box-sizing: border-box;
+	}
+	.history{
+		/*width: 962px;*/
+	}
+	.item-green,
+	.item-blue,
+	.item-red{
+		margin-right: 4%;
+	}
+	.fill-green,
+	.fill-blue,
+	.fill-red,
+	.fill-yellow{
+		display: block;
+	}
+	.statistics-top{
+		width: 100%;
+	}
+	.statistics-middle-left{
+		width: 60%;
+	}
+	.statistics-middle-right{
+		width: 38%;
+	}
+	.statistics-bottom .calendar{
+		width: 38%;
+	}
+	.statistics-bottom .carRanking{
+		width: 60%;
+	}
+}
+
+
+@media screen and (min-width: 950px)

@@ -3,1397 +3,1401 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, 
-                                     initial-scale=0.3, 
+                                     initial-scale=1.0, 
                                      maximum-scale=1.0, 
                                      user-scalable=no">
 	<title>个人报表</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
 </head>
 <body>
 
 	<!-- 顶部 -->
 	<div class="header">
 		<img class="header-logo" src="img/logo.png"/>
+		<div class="header-enter">
+			<a class="enter-text" href="#">登录</a>
+			<img class="enter-img" src="img/enter.png">
+		</div>
 		<div class="header-search">
 			<input class="search-input" type="text" placeholder="请输入文件名" />
 			<img class="search-img" src="img/search.png">
 		</div>
-		<div class="header-enter">
-			<img class="enter-img" src="img/enter.png">
-			<a class="enter-text" href="#">登录</a>
-		</div>
 	</div>
 
-    <!-- 左侧个人信息 -->
-	<div class="personal">
-	<!-- 左侧个人信息上面头像用户名部分 -->
-		<div class="personal-top clear">
-			<div class="top-userPhoto">
-				<img class="userPhoto-outer" src="img/outer.png"/>
-				<img class="userPhoto-inner" src="img/inner.png">
+	<div class="bottom clear">
+		<!-- 左侧个人信息 -->
+		<div class="personal">
+			<!-- 左侧个人信息上面头像用户名部分 -->
+			<div class="personal-top clear">
+				<div class="top-userPhoto">
+					<img class="userPhoto-outer" src="img/outer.png"/>
+					<img class="userPhoto-inner" src="img/inner.png">
+				</div>
+				<span class="top-userName">123wei</span>
 			</div>
-			<span class="top-userName">123wei</span>
-		</div>
 
-	<!-- 左侧个人信息中间收藏粉丝部分 -->
-		<div class="personal-center clear">
-			<div class="center-collect">
-				<span class="collect-number">112</span><br>
-				<span class="collect-text">收藏</span>
+			<!-- 左侧个人信息中间收藏粉丝部分 -->
+			<div class="personal-center clear">
+				<div class="center-collect">
+					<span class="collect-number">112</span><br>
+					<span class="collect-text">收藏</span>
+				</div>
+				<div class="center-fans">
+					<span class="fans-number">112</span><br>
+					<span class="fans-text">粉丝</span>
+				</div>
 			</div>
-			<div class="center-fans">
-				<span class="fans-number">112</span><br>
-				<span class="fans-text">粉丝</span>
+
+		<!-- 左侧个人信息下面个人资料部分 -->
+			<div class="personal-bottom">
+				<!-- 一级目录 -->
+				<ul class="bottom-message">   
+					<!-- 个人报表 -->
+					<li class="highlight-backgroundColor">
+						<div class="line">
+							<img class="icon" src="img/icon2.png">
+							<span class="highlight-text">个人报表</span>
+						</div>
+						<!-- 二级目录文件 -->
+						<ul class="file">
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件一</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档二</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+
+							
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/fold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span class="highlight-text">文件二</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span class="highlight-text">文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档二</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+
+
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件三</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档二</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<!-- 个人收藏 -->
+					<li>
+						<div class="line">
+							<img class="icon" src="img/icon2.png">
+							<span class="column">个人收藏</span>
+						</div>
+						<!-- 二级目录文件 -->
+						<ul class="file hide">
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件一</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档二</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+
+							
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件二</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档二</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+
+
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件三</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span">文档二</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<!-- 我的分享 -->
+					<li>
+						<div class="line">
+							<img class="icon" src="img/icon3.png">
+							<span class="column">我的分享</span>
+						</div>
+						<!-- 二级目录文件 -->
+						<ul class="file hide">
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件一</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+
+										
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档二</span>
+										</div>
+
+										
+									</li>
+								</ul>
+							</li>
+
+							
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件二</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档二</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+
+
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件三</a>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档二</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<!-- 图库 -->
+					<li>
+						<div class="line">
+							<img class="icon" src="img/icon2.png">
+							<span class="column">图库</span>
+						</div>
+						<ul class="file hide">
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件一</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+
+										
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档二</span>
+										</div>
+
+										
+									</li>
+								</ul>
+							</li>
+
+							
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件二</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档二</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+
+
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件三</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档二</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<!-- 成长记录 -->
+					<li>
+						<div class="line">
+							<img class="icon" src="img/icon2.png">
+							<span class="column">成长记录</span>
+						</div>
+						<ul class="file hide">
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件一</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+
+										
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+
+										
+									</li>
+								</ul>
+							</li>
+
+							
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件二</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+
+
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件三</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<!-- 我的信息 -->
+					<li>
+						<div class="line">
+							<img class="icon" src="img/icon4.png">
+							<span class="column">我的信息</span>
+						</div>
+						<ul class="file hide">
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件一</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+
+										
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+
+										
+									</li>
+								</ul>
+							</li>
+
+							
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件二</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+
+
+							<li>
+								<div class="line">
+									<img class="file-img1" src="img/unfold.png">
+									<img class="file-img2" src="img/folder.png">
+									<span>文件三</span>
+								</div>
+								<!-- 三级目录文档 -->
+								<ul class="document hide">
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</aspan>
+										</div>
+									</li>
+									<li>
+										<div class="line">
+											<img src="img/document.png">
+											<span>文档一</span>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
 			</div>
 		</div>
 
-	<!-- 左侧个人信息下面个人资料部分 -->
-		<div class="personal-bottom">
-			<!-- 一级目录 -->
-			<ul class="bottom-message">   
-				<!-- 个人报表 -->
-				<li class="highlight-backgroundColor">
-					<div class="line">
-						<img class="icon" src="img/icon2.png">
-						<span class="highlight-text">个人报表</span>
-					</div>
-					<!-- 二级目录文件 -->
-					<ul class="file">
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件一</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档二</span>
-									</div>
-								</li>
-							</ul>
-						</li>
+		<!-- 右侧内容区域 -->
+		<div class="content">
+			<div class="content-top">
+				<ul class="breadcrumb clear">
+				    <li><a href="#">C站</a></li>
+					<li><span>/</span><a href="#">个人报表</a></li>
+				    <li><span>/</span><a href="#">文件二</a></li>
+				    <li><span>/</span><a class="active" href="#">文档一</a></li>
+				</ul>
+			</div>
+			<div class="content-bottom">
+				<!-- 使右侧内容区域下面水平居中的盒子 -->
+				<div>
+					<!-- 查询区域 -->
+					<div class="search clear">
+						<!-- 查询区域左侧 -->
+						<div class="search-left">
+							<span>查询项</span>
+							<select>
+								<option>第一项</option>
+								<option>第二项</option>
+								<option>第三项</option>
+							</select>
+						</div>
 
-						
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/fold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span class="highlight-text">文件二</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span class="highlight-text">文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档二</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-
-
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件三</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档二</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-
-				<!-- 个人收藏 -->
-				<li>
-					<div class="line">
-						<img class="icon" src="img/icon2.png">
-						<span class="column">个人收藏</span>
-					</div>
-					<!-- 二级目录文件 -->
-					<ul class="file hide">
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件一</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档二</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-
-						
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件二</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档二</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-
-
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件三</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span">文档二</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-
-				<!-- 我的分享 -->
-				<li>
-					<div class="line">
-						<img class="icon" src="img/icon3.png">
-						<span class="column">我的分享</span>
-					</div>
-					<!-- 二级目录文件 -->
-					<ul class="file hide">
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件一</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-
-									
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档二</span>
-									</div>
-
-									
-								</li>
-							</ul>
-						</li>
-
-						
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件二</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档二</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-
-
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件三</a>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档二</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-
-				<!-- 图库 -->
-				<li>
-					<div class="line">
-						<img class="icon" src="img/icon2.png">
-						<span class="column">图库</span>
-					</div>
-					<ul class="file hide">
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件一</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-
-									
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档二</span>
-									</div>
-
-									
-								</li>
-							</ul>
-						</li>
-
-						
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件二</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档二</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-
-
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件三</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档二</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-
-				<!-- 成长记录 -->
-				<li>
-					<div class="line">
-						<img class="icon" src="img/icon2.png">
-						<span class="column">成长记录</span>
-					</div>
-					<ul class="file hide">
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件一</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-
-									
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-
-									
-								</li>
-							</ul>
-						</li>
-
-						
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件二</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-
-
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件三</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-
-				<!-- 我的信息 -->
-				<li>
-					<div class="line">
-						<img class="icon" src="img/icon4.png">
-						<span class="column">我的信息</span>
-					</div>
-					<ul class="file hide">
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件一</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-
-									
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-
-									
-								</li>
-							</ul>
-						</li>
-
-						
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件二</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-
-
-						<li>
-							<div class="line">
-								<img class="file-img1" src="img/unfold.png">
-								<img class="file-img2" src="img/folder.png">
-								<span>文件三</span>
-							</div>
-							<!-- 三级目录文档 -->
-							<ul class="document hide">
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</aspan>
-									</div>
-								</li>
-								<li>
-									<div class="line">
-										<img src="img/document.png">
-										<span>文档一</span>
-									</div>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-	<!-- 右侧内容区域 -->
-	<div class="content">
-		<div class="content-top">
-			<ul class="breadcrumb clear">
-			    <li><a href="#">C站</a></li>
-				<li><span>/</span><a href="#">个人报表</a></li>
-			    <li><span>/</span><a href="#">文件二</a></li>
-			    <li><span>/</span><a class="active" href="#">文档一</a></li>
-			</ul>
-		</div>
-		<div class="content-bottom">
-			<!-- 使右侧内容区域下面水平居中的盒子 -->
-			<div>
-				<!-- 查询区域 -->
-				<div class="search">
-					<!-- 查询区域左侧 -->
-					<div class="search-left">
-						<span>查询项</span>
-						<select>
-							<option>第一项</option>
-							<option>第二项</option>
-							<option>第三项</option>
-						</select>
-					</div>
-
-					<!-- 查询区域中间 -->
-					<div class="search-center">
-						<div>
-							<div class="buyer">
-								<span>买方</span>
-								<select>
-									<option>小A</option>
-									<option>小B</option>
-									<option>小C</option>
-								</select>
-							</div>
-
-							<div class="seller">
-								<span>卖方</span>
+						<!-- 查询区域中间 -->
+						<div class="search-center">
+							<div>
+								<div class="buyer">
+									<span>买方</span>
 									<select>
-										<option>小D</option>
-										<option>小E</option>
-										<option>小F</option>
+										<option>小A</option>
+										<option>小B</option>
+										<option>小C</option>
 									</select>
+								</div>
+
+								<div class="seller">
+									<span>卖方</span>
+										<select>
+											<option>小D</option>
+											<option>小E</option>
+											<option>小F</option>
+										</select>
+								</div>
+								<!-- <img src="img/arrows.png"> -->
 							</div>
-							<img src="img/arrows.png">
 						</div>
-					</div>
 
-					<!-- 查询区域右侧 -->
-					<div class="search-right">
-						<span>日期</span>
-						<input class="date" type="text" value="2016-04-01">
-						<span>总耗时</span>
-						<select class="time">
-							<option>1天</option><option>2天</option>
-							<option>3天</option><option>4天</option>
-							<option>5天</option><option>6天</option>
-							<option>7天</option><option>8天</option>
-							<option>9天</option><option>10天</option>
-						</select>
-						<br>
-						<span>人数</span>
-						<select class="people">
-							<option>1人</option><option>2人</option>
-							<option>3人</option><option>4人</option>
-							<option>5人</option><option>6人</option>
-							<option>7人</option><option>8人</option>
-							<option>9人</option><option>10人</option>
-						</select>
-						<span>成交项</span>
-						<select  class="turnover">
-							<option>1项</option><option>2项</option>
-							<option>3项</option><option>4项</option>
-							<option>5项</option><option>6项</option>
-							<option>7项</option><option>8项</option>
-							<option>9项</option><option>10项</option>
-						</select>
-					</div>
-
-					<!-- 查询区域最右边的button-->
-					<button><a href="#">搜索</a></button>
-				</div>
-				<!-- 历史查询 -->
-				<div class="history clear">
-					<div class="history-previous">
-						<img src="img/previous.png">
-					</div>
-
-					<div class="history-result">
-						<ul>
-							<li>
-								<p>10:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1200</span>
-								</div>
-							</li>
-							<li>
-								<p>11:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1300</span>
-								</div>
-							</li>
-							<li>
-								<p>12:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1200</span>
-								</div>
-							</li>
-							<li>
-								<p>01:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1400</span>
-								</div>
-							</li>
-							<li>
-								<p>02:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1500</span>
-								</div>
-							</li>
-							<li>
-								<p>03:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1600</span>
-								</div>
-							</li>
-							<li>
-								<p>04:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1200</span>
-								</div>
-							</li>
-							<li>
-								<p>05:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1400</span>
-								</div>
-							</li>
-							<li>
-								<p>06:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1500</span>
-								</div>
-							</li>
-							<li>
-								<p>07:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1600</span>
-								</div>
-							</li>
-							<li>
-								<p>08:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1200</span>
-								</div>
-							</li>
-							<li>
-								<p>09:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1400</span>
-								</div>
-							</li>
-							<li>
-								<p>10:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1500</span>
-								</div>
-							</li>
-							<li>
-								<p>11:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1600</span>
-								</div>
-							</li>
-							<li>
-								<p>12:00 pm</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1200</span>
-								</div>
-							</li>
-							<li>
-								<p>01:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1200</span>
-								</div>
-							</li>
-							<li>
-								<p>02:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1300</span>
-								</div>
-							</li>
-							<li>
-								<p>03:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1200</span>
-								</div>
-							</li>
-							<li>
-								<p>04:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1200</span>
-								</div>
-							</li>
-							<li>
-								<p>05:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1300</span>
-								</div>
-							</li>
-							<li>
-								<p>06:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1200</span>
-								</div>
-							</li>
-							<li>
-								<p>07:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1200</span>
-								</div>
-							</li>
-							<li>
-								<p>08:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1300</span>
-								</div>
-							</li>
-							<li>
-								<p>09:00 am</p>
-								<div>
-									<img src="img/￥.png">
-									<span>1200</span>
-								</div>
-							</li>
-						</ul>
-					</div>
-
-					<div class="history-next">
-						<img src="img/next.png">
-					</div>
-
-					<div class="history-search clear">
-						<div><img src="img/history.png">
-							<a href="#">历史查询</a>
+						<!-- 查询区域右侧 -->
+						<div class="search-right">
+							<span>日期</span>
+							<input class="date" type="text" value="2016-04-01">
+							<span>总耗时</span>
+							<select class="time">
+								<option>1天</option><option>2天</option>
+								<option>3天</option><option>4天</option>
+								<option>5天</option><option>6天</option>
+								<option>7天</option><option>8天</option>
+								<option>9天</option><option>10天</option>
+							</select>
+							<br>
+							<span>人数</span>
+							<select class="people">
+								<option>1人</option><option>2人</option>
+								<option>3人</option><option>4人</option>
+								<option>5人</option><option>6人</option>
+								<option>7人</option><option>8人</option>
+								<option>9人</option><option>10人</option>
+							</select>
+							<span>成交项</span>
+							<select  class="turnover">
+								<option>1项</option><option>2项</option>
+								<option>3项</option><option>4项</option>
+								<option>5项</option><option>6项</option>
+								<option>7项</option><option>8项</option>
+								<option>9项</option><option>10项</option>
+							</select>
 						</div>
+
+						<!-- 查询区域最右边的button-->
+						<button><a href="#">搜索</a></button>
 					</div>
-				</div>
-				<!-- 数据显示 -->
-				<div class="statistics">
-					<p>2016年4月统计</p>
+					<!-- 历史查询 -->
+					<div class="history clear">
+						<div class="history-previous">
+							<img src="img/previous.png">
+						</div>
 
-					<div class="statistics-top">
-						<ul>
-							<li class="item-green">
-								<div class="statistics-number">
-									<p class="p1">133331</p>
-									<p>成交量</p>
-								</div>
-								<div class="fill-green"></div>
-							</li>
-							<li class="item-blue">
-								<div class="statistics-number">
-									<p class="p1">133331</p>
-									<p>成交量</p>
-								</div>
-								<div class="fill-blue"></div>
-							</li>
-							<li class="item-red">
-								<div  class="statistics-number">
-							 		<p class="p1">133331</p>
-									<p>成交量</p>
-								</div>
-								<div class="fill-red"></div>
-							</li>
-							<li class="item-yellow">
-								<div  class="statistics-number">
-									<p class="p1">133331</p>
-									<p>成交量</p>
-								</div>
-								<div class="fill-yellow"></div>
-							</li>
-						</ul>
-					</div>
-
-					<div class="statistics-middle">
-						<div class="statistics-middle-left">
-							<p>第一组项目</p>
-							<div>
-								<div class="project-name">
-									<ul class="clear">
-										<li class="selected"><span>项目一</span></li>
-										<li><span>项目二</span></li>
-										<li><span>项目三</span></li>
-										<li><span>项目四</span></li>
-										<li><span>项目五</span></li>
-									</ul>
-								</div>
-
-								<div class="project-table">
-									<div class="hide">
-										<table>
-											<tbody>
-												<tr>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-													<td><a href="#">购买材料一</a></td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-									<div class="hide">
-										<table>
-											<tbody>
-												<tr>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-													<td><a href="#">购买材料二</a></td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
+						<div class="history-result">
+							<ul>
+								<li>
+									<p>10:00 am</p>
 									<div>
-										<table>
-											<tbody>
-												<tr>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-													<td><a href="#">购买材料三</a></td>
-												</tr>
-											</tbody>
-										</table>
+										<img src="img/￥.png">
+										<span>1200</span>
 									</div>
-									<div class="hide">
-										<table>
-											<tbody>
-												<tr>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-												</tr><tr>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-												</tr><tr>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-												</tr><tr>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-													<td><a href="#">购买材料四</a></td>
-												</tr>
-											</tbody>
-										</table>
+								</li>
+								<li>
+									<p>11:00 am</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1300</span>
 									</div>
-									<div class="hide">
-										<table>
-											<tbody>
-												<tr>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-												</tr>
-												<tr>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-													<td><a href="#">购买材料五</a></td>
-												</tr>
-												</tr>
-											</tbody>
-										</table>
+								</li>
+								<li>
+									<p>12:00 am</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1200</span>
 									</div>
-								</div>
-							</div>
+								</li>
+								<li>
+									<p>01:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1400</span>
+									</div>
+								</li>
+								<li>
+									<p>02:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1500</span>
+									</div>
+								</li>
+								<li>
+									<p>03:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1600</span>
+									</div>
+								</li>
+								<li>
+									<p>04:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1200</span>
+									</div>
+								</li>
+								<li>
+									<p>05:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1400</span>
+									</div>
+								</li>
+								<li>
+									<p>06:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1500</span>
+									</div>
+								</li>
+								<li>
+									<p>07:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1600</span>
+									</div>
+								</li>
+								<li>
+									<p>08:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1200</span>
+									</div>
+								</li>
+								<li>
+									<p>09:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1400</span>
+									</div>
+								</li>
+								<li>
+									<p>10:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1500</span>
+									</div>
+								</li>
+								<li>
+									<p>11:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1600</span>
+									</div>
+								</li>
+								<li>
+									<p>12:00 pm</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1200</span>
+									</div>
+								</li>
+								<li>
+									<p>01:00 am</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1200</span>
+									</div>
+								</li>
+								<li>
+									<p>02:00 am</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1300</span>
+									</div>
+								</li>
+								<li>
+									<p>03:00 am</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1200</span>
+									</div>
+								</li>
+								<li>
+									<p>04:00 am</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1200</span>
+									</div>
+								</li>
+								<li>
+									<p>05:00 am</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1300</span>
+									</div>
+								</li>
+								<li>
+									<p>06:00 am</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1200</span>
+									</div>
+								</li>
+								<li>
+									<p>07:00 am</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1200</span>
+									</div>
+								</li>
+								<li>
+									<p>08:00 am</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1300</span>
+									</div>
+								</li>
+								<li>
+									<p>09:00 am</p>
+									<div>
+										<img src="img/￥.png">
+										<span>1200</span>
+									</div>
+								</li>
+							</ul>
 						</div>
-						<div class="statistics-middle-right">
-							<p>第一组项目</p>
-							<div>
-								<p class="title">标题</p>
-								<p class="project-name2">项目报表三</p>
-								<hr class="hr1">
-								<div class="clear">
-									<div class="price">
-										<p class="price-text">价格</p>
-										<br>
-										<p>￥158</p>
-									</div>
-									<div class="manager">
-										<p class="maneger-text">负责人</p>
-										<br>
-										<p>小A</p>
-									</div>
-								</div>
-								<hr class="hr2">
-								<div class="description">
-									<p class="description-text">详细描述</p>
-									<textarea scroll>该项目的负责人是……</textarea>
-									
-								</div>
-								
-								<hr class="hr3">
-								<div>
-									<div class="check">
-										<img src="img/checked.png">
-										<span class="agree">遵守保密协议</span>
 
-									</div>
-									
-									<button><a href="#">搜索</a></button>
-								</div>
+						<div class="history-next">
+							<img src="img/next.png">
+						</div>
+
+						<div class="history-search clear">
+							<div><img src="img/history.png">
+								<a href="#">历史查询</a>
 							</div>
-							
 						</div>
 					</div>
+					<!-- 数据显示 -->
+					<div class="statistics">
+						<p>2016年4月统计</p>
 
-					<div class="statistics-bottom">
-						<!-- 日历 -->
-						<div class="calendar">
-							<p>日历</p>
-							<div class="calendar-form">
-								<select class="arrow-down year" name="year">
-									<option value="2016">2016</option>
-								</select>
-								
-								<select  class="month" name="month">
-									<option value="4">4月</option>
-								</select>
-								
-								<select  class="arrow-down day" name="day">
-									<option value="1">标注日期</option>
-								</select>
-								
-								<input type="button" name="today" id="today" value="返回今天"/>
+						<div class="statistics-top clear">
+							<ul>
+								<li class="item-green">
+									<div class="statistics-number">
+										<p class="p1">133331</p>
+										<p>成交量</p>
+									</div>
+									<div class="fill-green"></div>
+								</li>
+								<li class="item-blue">
+									<div class="statistics-number">
+										<p class="p1">133331</p>
+										<p>成交量</p>
+									</div>
+									<div class="fill-blue"></div>
+								</li>
+								<li class="item-red">
+									<div  class="statistics-number">
+								 		<p class="p1">133331</p>
+										<p>成交量</p>
+									</div>
+									<div class="fill-red"></div>
+								</li>
+								<li class="item-yellow">
+									<div  class="statistics-number">
+										<p class="p1">133331</p>
+										<p>成交量</p>
+									</div>
+									<div class="fill-yellow"></div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="statistics-middle clear">
+							<div class="statistics-middle-left">
+								<p>第一组项目</p>
+								<div>
+									<div class="project-name">
+										<ul class="clear">
+											<li class="selected"><span>项目一</span></li>
+											<li><span>项目二</span></li>
+											<li><span>项目三</span></li>
+											<li><span>项目四</span></li>
+											<li><span>项目五</span></li>
+										</ul>
+									</div>
+
+									<div class="project-table">
+										<div class="hide">
+											<table>
+												<tbody>
+													<tr>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+														<td><a href="#">购买材料一</a></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="hide">
+											<table>
+												<tbody>
+													<tr>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+														<td><a href="#">购买材料二</a></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div>
+											<table>
+												<tbody>
+													<tr>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+														<td><a href="#">购买材料三</a></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="hide">
+											<table>
+												<tbody>
+													<tr>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+													</tr><tr>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+													</tr><tr>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+													</tr><tr>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+														<td><a href="#">购买材料四</a></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										<div class="hide">
+											<table>
+												<tbody>
+													<tr>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+													</tr>
+													<tr>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+														<td><a href="#">购买材料五</a></td>
+													</tr>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
 							</div>
-							
-							<div>
-								<table class="calendar-table"  cellspacing="0">
-									<tr class="week">
-										<td>一</td>
-										<td>二</td>
-										<td>三</td>
-										<td>四</td>
-										<td>五</td>
-										<td>六</td>
-										<td>日</td>
-									</tr>
-									<tr class="day">
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td class="festival">
-											<p>1</p>
-											<span>愚人节</span>
-										</td>
-										<td>
-											<p>2</p>
-											<span>廿五</span>
-										</td>
-										<td>
-											<p>3</p>
-											<span>廿六</span>
-										</td>
-									</tr>
-									<tr class="day">
-										<td>
-											<p>4</p>
-											<span>廿七</span>
-										</td>
-										<td class="festival">
-											<p>5</p>
-											<span>清明</span>
-										</td>
-										<td>
-											<p>6</p>
-											<span>廿九</span>
-										</td>
-										<td>
-											<p>7</p>
-											<span>三月</span>
-										</td>
-										<td>
-											<p>8</p>
-											<span>初二</span>
-										</td>
-										<td>
-											<p>9</p>
-											<span>初三</span>
-										</td>
-										<td>
-											<p>10</p>
-											<span>初四</span>
-										</td>
-									</tr>
-									<tr class="day">
-										<td>
-											<p>11</p>
-											<span>初五</span>
-										</td>
-										<td>
-											<p>12</p>
-											<span>初六</span>
-										</td>
-										<td>
-											<p>13</p>
-											<span>初七</span>
-										</td>
-										<td>
-											<p>14</p>
-											<span>初八</span>
-										</td>
-										<td>
-											<p>15</p>
-											<span>初九</span>
-										</td>
-										<td>
-											<p>16</p>
-											<span>初十</span>
-										</td>
-										<td>
-											<p>17</p>
-											<span>十一</span>
-										</td>
-									</tr>
-									<tr class="day">
-										<td>
-											<p>18</p>
-											<span>十二</span>
-										</td>
-										<td>
-											<p>19</p>
-											<span>十三</span>
-										</td>
-										<td>
-											<p>20</p>
-											<span>十四</span>
-										</td>
-										<td>
-											<p>21</p>
-											<span>十五</span>
-										</td>
-										<td>
-											<p>22</p>
-											<span>十六</span>
-										</td>
-										<td>
-											<p>23</p>
-											<span>十七</span>
-										</td>
-										<td>
-											<p>24</p>
-											<span>十八</span>
-										</td>
-									</tr>
-									<tr class="day">
-										<td>
-											<p>25</p>
-											<span>十九</span>
-										</td>
-										<td>
-											<p>26</p>
-											<span>廿十</span>
-										</td>
-										<td>
-											<p>27</p>
-											<span>廿一</span>
-										</td>
-										<td>
-											<p>28</p>
-											<span>廿二</span>
-										</td>
-										<td>
-											<p>29</p>
-											<span>廿三</span>
-										</td>
-										<td>
-											<p>30</p>
-											<span>廿四</span>
-										</td>
-										<td></td>
-									</tr>
-								</table>
+							<div class="statistics-middle-right">
+								<p>第一组项目</p>
+								<div>
+									<p class="title">标题</p>
+									<p class="project-name2">项目报表三</p>
+									<hr class="hr1">
+									<div class="clear">
+										<div class="price">
+											<p class="price-text">价格</p>
+											<br>
+											<p>￥158</p>
+										</div>
+										<div class="manager">
+											<p class="maneger-text">负责人</p>
+											<br>
+											<p>小A</p>
+										</div>
+									</div>
+									<hr class="hr2">
+									<div class="description">
+										<p class="description-text">详细描述</p>
+										<textarea scroll>该项目的负责人是……</textarea>
+										
+									</div>
+									
+									<hr class="hr3">
+									<div>
+										<div class="check">
+											<img src="img/checked.png">
+											<span class="agree">遵守保密协议</span>
+
+										</div>
+										
+										<button><a href="#">搜索</a></button>
+									</div>
+								</div>
+								
 							</div>
 						</div>
 
-						<!-- 汽车行业排行榜 -->
-						<div class="carRanking">
-							<p>汽车行业品牌榜</p>
-							<div>
-								<table>
-									<thead>
-										<tr>
-											<th class="row1">排名</th>
-											<th class="row2">品牌</th>
-											<th>搜索指数</th>
+						<div class="statistics-bottom clear">
+							<!-- 日历 -->
+							<div class="calendar">
+								<p>日历</p>
+								<div class="calendar-form">
+									<select class="arrow-down year" name="year">
+										<option value="2016">2016</option>
+									</select>
+									
+									<select  class="month" name="month">
+										<option value="4">4月</option>
+									</select>
+									
+									<select  class="arrow-down day" name="day">
+										<option value="1">标注日期</option>
+									</select>
+									
+									<input type="button" name="today" id="today" value="返回今天"/>
+								</div>
+								
+								<div>
+									<table class="calendar-table"  cellspacing="0">
+										<tr class="week">
+											<td>一</td>
+											<td>二</td>
+											<td>三</td>
+											<td>四</td>
+											<td>五</td>
+											<td>六</td>
+											<td>日</td>
 										</tr>
-									</thead>
+										<tr class="day">
+											<td></td>
+											<td></td>
+											<td></td>
+											<td></td>
+											<td class="festival">
+												<p>1</p>
+												<span>愚人节</span>
+											</td>
+											<td>
+												<p>2</p>
+												<span>廿五</span>
+											</td>
+											<td>
+												<p>3</p>
+												<span>廿六</span>
+											</td>
+										</tr>
+										<tr class="day">
+											<td>
+												<p>4</p>
+												<span>廿七</span>
+											</td>
+											<td class="festival">
+												<p>5</p>
+												<span>清明</span>
+											</td>
+											<td>
+												<p>6</p>
+												<span>廿九</span>
+											</td>
+											<td>
+												<p>7</p>
+												<span>三月</span>
+											</td>
+											<td>
+												<p>8</p>
+												<span>初二</span>
+											</td>
+											<td>
+												<p>9</p>
+												<span>初三</span>
+											</td>
+											<td>
+												<p>10</p>
+												<span>初四</span>
+											</td>
+										</tr>
+										<tr class="day">
+											<td>
+												<p>11</p>
+												<span>初五</span>
+											</td>
+											<td>
+												<p>12</p>
+												<span>初六</span>
+											</td>
+											<td>
+												<p>13</p>
+												<span>初七</span>
+											</td>
+											<td>
+												<p>14</p>
+												<span>初八</span>
+											</td>
+											<td>
+												<p>15</p>
+												<span>初九</span>
+											</td>
+											<td>
+												<p>16</p>
+												<span>初十</span>
+											</td>
+											<td>
+												<p>17</p>
+												<span>十一</span>
+											</td>
+										</tr>
+										<tr class="day">
+											<td>
+												<p>18</p>
+												<span>十二</span>
+											</td>
+											<td>
+												<p>19</p>
+												<span>十三</span>
+											</td>
+											<td>
+												<p>20</p>
+												<span>十四</span>
+											</td>
+											<td>
+												<p>21</p>
+												<span>十五</span>
+											</td>
+											<td>
+												<p>22</p>
+												<span>十六</span>
+											</td>
+											<td>
+												<p>23</p>
+												<span>十七</span>
+											</td>
+											<td>
+												<p>24</p>
+												<span>十八</span>
+											</td>
+										</tr>
+										<tr class="day">
+											<td>
+												<p>25</p>
+												<span>十九</span>
+											</td>
+											<td>
+												<p>26</p>
+												<span>廿十</span>
+											</td>
+											<td>
+												<p>27</p>
+												<span>廿一</span>
+											</td>
+											<td>
+												<p>28</p>
+												<span>廿二</span>
+											</td>
+											<td>
+												<p>29</p>
+												<span>廿三</span>
+											</td>
+											<td>
+												<p>30</p>
+												<span>廿四</span>
+											</td>
+											<td></td>
+										</tr>
+									</table>
+								</div>
+							</div>
 
-									<tbody>
-										<tr>
-											<td>1</td>
-											<td>大众</td>
-											<td>
-												<span>48912001</span>
-												<img src="img/progress1.png">
-											</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>大众</td>
-											<td>
-												<span>29307333</span>
-												<img src="img/progress2.png">
-											</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>大众</td>
-											<td>
-												<span>23139070</span>
-												<img src="img/progress3.png">
-											</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>大众</td>
-											<td>
-												<span>22885564</span>
-												<img src="img/progress4.png">
-											</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>大众</td>
-											<td>
-												<span>22324792</span>
-												<img src="img/progress5.png">
-											</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>大众</td>
-											<td>
-												<span>21444077</span>
-												<img src="img/progress6.png">
-											</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>大众</td>
-											<td>
-												<span>20114969</span>
-												<img src="img/progress7.png">
-											</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>大众</td>
-											<td>
-												<span>19251680</span>
-												<img src="img/progress8.png">
-											</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>大众</td>
-											<td>
-												<span>19172837</span>
-												<img src="img/progress9.png">
-											</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>大众</td>
-											<td>
-												<span>18544027</span>
-												<img src="img/progress10.png">
-											</td>
-										</tr>
-									</tbody>
-								</table>
+							<!-- 汽车行业排行榜 -->
+							<div class="carRanking">
+								<p>汽车行业品牌榜</p>
+								<div>
+									<table>
+										<thead>
+											<tr>
+												<th class="row1">排名</th>
+												<th class="row2">品牌</th>
+												<th>搜索指数</th>
+											</tr>
+										</thead>
+
+										<tbody>
+											<tr>
+												<td>1</td>
+												<td>大众</td>
+												<td>
+													<span>48912001</span>
+													<img src="img/progress1.png">
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td>大众</td>
+												<td>
+													<span>29307333</span>
+													<img src="img/progress2.png">
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td>大众</td>
+												<td>
+													<span>23139070</span>
+													<img src="img/progress3.png">
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td>大众</td>
+												<td>
+													<span>22885564</span>
+													<img src="img/progress4.png">
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td>大众</td>
+												<td>
+													<span>22324792</span>
+													<img src="img/progress5.png">
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td>大众</td>
+												<td>
+													<span>21444077</span>
+													<img src="img/progress6.png">
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td>大众</td>
+												<td>
+													<span>20114969</span>
+													<img src="img/progress7.png">
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td>大众</td>
+												<td>
+													<span>19251680</span>
+													<img src="img/progress8.png">
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td>大众</td>
+												<td>
+													<span>19172837</span>
+													<img src="img/progress9.png">
+												</td>
+											</tr>
+											<tr>
+												<td>1</td>
+												<td>大众</td>
+												<td>
+													<span>18544027</span>
+													<img src="img/progress10.png">
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -1401,6 +1405,7 @@
 			</div>
 		</div>
 	</div>
+
 		
 	<script type="text/javascript"  src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/demo.js"></script>
