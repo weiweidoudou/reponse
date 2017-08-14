@@ -250,7 +250,9 @@ a{
 }
 .content-bottom .search select{
 	height: 24px;
+	appearance:none;
 	-webkit-appearance: none;
+	-moz-appearance: none;
 	border: 1px solid #d8d9db;
 	background: url(../img/arrowDownBlack.png) no-repeat 95% 50%;
 	cursor: pointer;
@@ -728,7 +730,9 @@ textarea{
 }
 
 .calendar-form select{
+	appearance:none;
 	-webkit-appearance: none;
+	-moz-appearance: none;
 	height: 24px;
 	margin-right: 2%;
 	border: 1px solid #cacbcb;
@@ -743,7 +747,7 @@ textarea{
 }
 
 .calendar-form .month{
-	width: 24%;
+	width: 25%;
 	padding: 0 9%;
 	background: url(../img/arrowDown.png) no-repeat 70% 50% ;
 }
